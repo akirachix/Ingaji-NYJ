@@ -1,0 +1,118 @@
+.title{
+    font-size: large;
+    text-align: center;
+    
+}
+.loom-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+    text-decoration: none;
+    
+}
+.loom-video img{
+    border: none solid;
+    box-shadow: 5px 8px 8px 5px rgba(209, 181, 181, 0.7);
+}
+.videos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+    margin-top: 70px;
+}
+.videos2 img{
+    border:none solid;
+    box-shadow: 5px 8px 8px 5px rgba(209, 181, 181, 0.7);
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(205,93,10);
+    font-size: 20px;
+}
+.loom-video3{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+
+}
+.loom-video3 img{
+    border:none solid;
+    box-shadow: 5px 8px 8px 5px rgba(209, 181, 181, 0.7);
+   
+   
+}
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cover-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .cover-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    display: inline-block;
+  }
+
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .play-button:before {
+    content: "";
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 20px solid #333;
+    margin-left: 5px;
+  }
+  .introduction-github{
+    display: flex;
+    gap: 230px;
+    margin-left: 200px;
+    font-weight: 10px;
+  }
+  .revenue-github{
+    display: flex;
+    gap: 180px;
+    margin-left: 300px;
+    font-size: medium;
+
+  }
+  /* .architecture-github{
+
+  } */
+
+ 
+
+  
+
+
+
