@@ -46,8 +46,6 @@
 @media screen and (max-width:768) {
     .whole{
         font-family:serif;
-        background-color: rgb(173, 243, 243);
-        background-image: linear-gradient(rgb(240, 203, 203), rgb(131, 231, 226),rgb(252, 199, 208));
         margin: 0;
         padding: 0;
         
@@ -58,9 +56,10 @@
         font-size: 20px;
     }
     .pic{
+        height: 200px;
         border-radius: 50%;
         width:200px;
-        height: 200px;
+    
     }
     .top{
         flex-wrap: wrap;
