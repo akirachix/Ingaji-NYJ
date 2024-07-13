@@ -1,0 +1,167 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background-color: #f5f5f5;
+  }
+  
+  .content {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .content button {
+    background-color:rgb(43,89,106);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .podcast {
+    width: 80%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    display: flex;
+    align-items: center;
+    background-color:rgb(43,89,106);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+margin-left: 2%;
+margin-right: 2%;
+  }
+  
+  .space {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+  }
+  
+  .avatar h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .avatar p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .avatar button {
+    background-color:rgb(212, 226, 231);
+    color: #01070e;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .main-content{
+    display: flex;
+    gap: 5%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .podcast {
+      margin-top: 3%;
+    }
+  
+    .main {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .avatar {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  
+    .space {
+      margin-left: 2%;
+    }
+  }
+
+
+
+
+/* @media only screen and (max-width: 600px) {
+
+}
+@media screen and (min-width: 481px) and (max-width:564px){
+
+}
+@media screen and (min-width: 565px) and (max-width:768px){
+
+
+}
+@media screen and (min-width: 769px) and (max-width:925px){
+
+}
+@media screen and (min-width: 912px) and (max-width: 1000px) {
+ 
+} */
+@media screen and (min-width: 926px) and (max-width:1300px){
+  .podcast {
+    margin-top: 3%;
+  }
+
+  .main {
+    display: flex;
+
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .avatar {
+    display:flex;
+
+  }
+
+  .main-content {
+    display: flex;
+
+  }
+
+
+}
+
+  
+
+
