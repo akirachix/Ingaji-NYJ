@@ -1,0 +1,177 @@
+
+.blog-review-container{
+    display:grid;
+    gap:200px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    /* background-image: url('/public/images/mountains.jpg'); */
+    background-color: rgb(43,89,106);
+    min-height: 500px;
+    background-position: cover;
+    background-size: cover;
+    /* width:2420px; */
+    /* margin-left: 40%; */
+}
+
+.blogs{
+    /* box-shadow:20px 20px 60px #9EAFAF, -20px -20px 60px #e8e8eb; */
+    width:700px;
+    border: solid 2px;
+    background-color: aquamarine;
+    margin-top: 15%;
+
+
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+   
+    
+    .blog-review-container{
+        display:grid;
+        grid-template-columns: auto;
+        width: 107%;
+    }
+
+    .blogs{
+        width:99%;
+    }
+    
+}
+@media screen and (min-width: 301px) and (max-width: 400px) {
+   
+    
+    .blog-review-container{
+        display:grid;
+        grid-template-columns: auto;
+        width: 99%;
+    }
+
+    .blogs{
+        width:90%;
+        border:solid 2px;
+    }
+    
+}
+@media only screen and (min-width: 401px) and (max-width: 680px) {
+    
+    .blog-review-container{
+        display:grid;
+        grid-template-columns: auto;
+        width: 102%;
+    }
+   .blogs{
+    width:90%;
+    border:solid 2px;
+   }
+}
+@media only screen and (min-width: 681px) and (max-width: 780px) {
+   
+    .blog-review-container{
+        display:flex;
+        /* grid-template-columns: auto; */
+        width: 99%;
+        gap: 3%;
+        border:solid 2px red;
+
+    }
+    .blogs{
+        width:101%;
+        border:solid 2px;
+
+       }
+    
+}
+@media only screen and (min-width: 781px) and (max-width: 880px) {
+    
+   
+    .blog-review-container{
+        display:flex;
+        /* grid-template-columns: auto; */
+        width: 99%;
+        gap: 3%;
+        border:solid 2px red;
+
+    }
+    .blogs{
+        width:100%;
+        border:solid 2px;
+
+       }
+    
+}
+
+@media only screen and (min-width: 881px) and (max-width: 900px) {
+   
+   
+    .blog-review-container{
+        display:flex;
+        /* grid-template-columns: auto; */
+        width: 99%;
+        gap: 3%;
+        border:solid 2px red;
+
+    }
+    .blogs{
+        width:99%;
+        border:solid 2px;
+
+       }
+    
+
+}
+@media only screen and (min-width: 901px) and (max-width: 1023px) {
+    
+ 
+    .blog-review-container{
+        display:flex;
+        width: 99%;
+        gap: 3%;
+
+    }
+    .blogs{
+        width:99%;
+        border:solid 2px;
+
+       }
+    
+}
+@media only screen and (min-width: 1024x) and (max-width: 1123px) {
+    
+ 
+    .blog-review-container{
+        display:flex;
+         grid-template-columns: auto; 
+         width: 50%;
+        gap: 3%;
+
+    }
+    .blogs{
+        width:50%;
+        border:solid 2px;
+
+
+       }
+    
+}
+@media only screen and (min-width: 1124x) and (max-width: 1280px) {
+    
+ 
+    .blog-review-container{
+        display:flex;
+        /* grid-template-columns: auto; */
+        width: 50%;
+        gap: 3%;
+        border:solid 2px red;
+
+    }
+    .blogs{
+        width:50%;
+        border:solid 2px;
+
+       }
+    
+}
+
