@@ -14,21 +14,21 @@ const Homepage =()=>{
            <figcaption className='caption'>Ivy Wanjiku</figcaption>
            <figcaption className='caption'>Software Developer</figcaption>
            <figcaption className='caption'>Nationality:Kenyan</figcaption>
-           <figcaption className='port'><a >View Portfolio</a></figcaption>
+           <figcaption className='port'><a href='https://ivy-one.vercel.app/'>View Portfolio</a></figcaption>
            </div>
            <div className='fanny'>
            <img src='pics/fanny.png' alt='Fanny' className='pic'/>
            <figcaption className='caption'>Ingabire Fanny</figcaption>
            <figcaption className='caption'>Software Developer</figcaption>
-           <figcaption className='caption'>Nationality:Kenyan</figcaption>
-           <figcaption className='port'> <a href='https://my-porto-rh3m.vercel.app/' >View Portfolio</a></figcaption>
+           <figcaption className='caption'>Nationality:Rwandese</figcaption>
+           <figcaption className='port'> <a href='https://fanny-liard.vercel.app/' >View Portfolio</a></figcaption>
            </div>
            </div>
            <div className='akwang'>
            <img src='pics/akwang.png' alt='Akwang' className='pic'/>
            <figcaption className='caption'>Akwang Deu</figcaption>
            <figcaption className='caption'>Software Developer</figcaption>
-           <figcaption className='caption'>Nationality:Kenyan</figcaption>
+           <figcaption className='caption'>Nationality:Sudanese</figcaption>
            <figcaption className='port'> <a href='https://akwang.vercel.app/'>View Portfolio</a></figcaption>
            </div>
            <div className='bottom'>
@@ -44,10 +44,13 @@ const Homepage =()=>{
            <figcaption className='caption'>Raziah Abdulahi</figcaption>
            <figcaption className='caption'>Software Developer</figcaption>
            <figcaption className='caption'>Nationality:Kenyan</figcaption>
-           <figcaption className='port'>Portfolio</figcaption>
+           <figcaption className='port'><a href='https://raziah.vercel.app/'>View Portfolio</a></figcaption>
            </div>
            </div>
         </div>
+        <footer>
+
+        </footer>
                   
     </div>
 

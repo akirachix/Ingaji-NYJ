@@ -1,13 +1,14 @@
 .whole{
     font-family:serif;
-     padding: 0;
+    padding: 0;
     margin: 0;
     
     
 }
-.port{
+.port a{
     color: #11074D;
     font-size: 20px;
+    text-decoration: none;
 }
 .pic{
     border-radius: 50%;
@@ -43,46 +44,369 @@
 .heading{
     display: flex;
 }
-@media screen and (max-width:768) {
+@media screen and (min-width:280px) and (max-width: 375px){
     .whole{
         font-family:serif;
-        margin: 0;
         padding: 0;
+        margin: 0;
+       
         
         
     }
-    .port{
-        color: #11074D;
+    .port a{
+        color: #0f044b;
         font-size: 20px;
+        text-decoration: none;
     }
     .pic{
-        height: 200px;
         border-radius: 50%;
-        width:200px;
-    
+        width:242px;
+        height: 242px;
     }
     .top{
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+       flex-wrap: wrap;
     }
     .bottom{
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: -90px;
+      flex-wrap: wrap;
+        justify-content: center;
+        
     }
     .title{
         color: #11074D;
-        font-size: 40px;
+        font-size: 30px;
     }
     .caption{
         font-size: 20px;
     }
-    .akwang{
-        margin-top: -170px;
+    .images{
+        flex-wrap: wrap;
     }
-   
-   
+    .akwang{
+        margin-top: 30px;
+    }
+    .whole{
+        margin: 0;
+        padding: 0%;
+    }
+    .one{
+        display: flex;
+    }
     .heading{
         display: flex;
     }
+    .ajema{
+        margin-top: 110px;
+    }
+    .fanny{
+        margin-top: 30px;
+    }
+    .raziah{
+        margin-top: 50px;
+    }
+}
+
+
+
+    
+    @media screen and (min-width: 376px) and (max-width: 460px) {
+        .whole{
+            font-family:serif;
+            padding: 0;
+            margin: 0;
+   
+        }
+        .port a{
+            color: #0f044b;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .pic{
+            border-radius: 50%;
+            width:242px;
+            height: 242px;
+        }
+        .top{
+           flex-wrap: wrap;
+        }
+        .bottom{
+          flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        .title{
+            color: #11074D;
+            font-size: 50px;
+        }
+        .caption{
+            font-size: 20px;
+        }
+        .images{
+            flex-wrap: wrap;
+        }
+        .akwang{
+            margin-top: 30px;
+        }
+        .whole{
+            margin: 0;
+            padding: 0%;
+        }
+        .one{
+            display: flex;
+        }
+        .heading{
+            display: flex;
+        }
+        .ajema{
+            margin-top: 110px;
+        }
+        .fanny{
+            margin-top: 30px;
+        }
+        .raziah{
+            margin-top: 50px;
+        }
+    }
+    @media screen and (min-width: 461px) and (max-width: 660px) {
+        .whole{
+            font-family:serif;
+            padding: 0;
+            margin: 0;
+           
+            
+            
+        }
+        .port a{
+            color: #0f044b;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .pic{
+            border-radius: 50%;
+            width:242px;
+            height: 242px;
+        }
+        .top{
+          display: flex;
+        }
+        .bottom{
+         display: flex;
+        margin-top: 50px;
+            
+        }
+        .title{
+            color: #11074D;
+            font-size: 50px;
+        }
+        .caption{
+            font-size: 20px;
+        }
+        .images{
+            flex-wrap: wrap;
+        }
+        .akwang{
+            margin-top: 30px;
+        }
+        .whole{
+            margin: 0;
+            padding: 0%;
+        }
+        .one{
+            display: flex;
+        }
+        .heading{
+            display: flex;
+        }
+        /* .ajema{
+            margin-top: 110px;
+        }
+        .fanny{
+            margin-top: 30px;
+        }
+        .raziah{
+            margin-top: 50px;
+        } */
+    }
+    @media screen and (min-width: 660px) and (max-width: 760px) {
+        .whole{
+            font-family:serif;
+            padding: 0;
+            margin: 0;
+           
+            
+            
+        }
+        .port a{
+            color: #0f044b;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .pic{
+            border-radius: 50%;
+            width:242px;
+            height: 242px;
+        }
+        .top{
+          display: flex;
+        }
+        .bottom{
+         display: flex;
+        margin-top: 50px;
+            
+        }
+        .title{
+            color: #11074D;
+            font-size: 50px;
+        }
+        .caption{
+            font-size: 20px;
+        }
+        .images{
+            flex-wrap: wrap;
+        }
+        .akwang{
+            margin-top: 30px;
+        }
+        .whole{
+            margin: 0;
+            padding: 0%;
+        }
+        .one{
+            display: flex;
+        }
+        .heading{
+            display: flex;
+        }
+        /* .ajema{
+            margin-top: 110px;
+        }
+        .fanny{
+            margin-top: 30px;
+        }
+        .raziah{
+            margin-top: 50px;
+        } */
+    }
+    @media only screen and (min-width:761px) and (max-width: 800px) {
+        .whole{
+            font-family:serif;
+            padding: 0;
+            margin: 0;
+           
+            
+            
+        }
+        .port a{
+            color: #0f044b;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .pic{
+            border-radius: 50%;
+            width:242px;
+            height: 242px;
+        }
+        .top{
+          display: flex;
+        }
+        .bottom{
+         display: flex;
+        margin-top: 50px;
+            
+        }
+        .title{
+            color: #11074D;
+            font-size: 50px;
+        }
+        .caption{
+            font-size: 20px;
+        }
+        .images{
+            flex-wrap: wrap;
+        }
+        .akwang{
+            margin-top: 30px;
+        }
+        .whole{
+            margin: 0;
+            padding: 0%;
+        }
+        .one{
+            display: flex;
+        }
+        .heading{
+            display: flex;
+        }
+        /* .ajema{
+            margin-top: 110px;
+        }
+        .fanny{
+            margin-top: 30px;
+        }
+        .raziah{
+            margin-top: 50px;
+        } */
+    }
+    @media  screen and (min-width: 801px) and (max-width: 820px) {
+    }
+    @media screen and (min-width: 861px) and (max-width: 960px) {
+    }
+    @media screen and (min-width: 961px) and (max-width: 1280px) {
+        .whole{
+            font-family:serif;
+            padding: 0;
+            margin: 0;
+           
+            
+            
+        }
+        .port a{
+            color: #0f044b;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .pic{
+            border-radius: 50%;
+            width:242px;
+            height: 242px;
+        }
+        .top{
+          display: flex;
+        }
+        .bottom{
+         display: flex;
+        margin-top: 50px;
+            
+        }
+        .title{
+            color: #11074D;
+            font-size: 50px;
+        }
+        .caption{
+            font-size: 20px;
+        }
+        .images{
+            flex-wrap: wrap;
+        }
+        .akwang{
+            margin-top: 10px;
+        }
+        .whole{
+            margin: 0;
+            padding: 0%;
+        }
+        .one{
+            display: flex;
+        }
+        .heading{
+            display: flex;
+        }
+        /* .ajema{
+            margin-top: 110px;
+        }
+        .fanny{
+            margin-top: 30px;
+        }
+        .raziah{
+            margin-top: 50px;
+        } */
     }
